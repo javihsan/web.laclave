@@ -1,0 +1,3 @@
+# Module weblogin
+# RPC service class, partial path of RPC policy file
+com.weblogin.client.LoginService, 8D0513B13BD5E5CD84A407BCE518CDD0.gwt.rpc

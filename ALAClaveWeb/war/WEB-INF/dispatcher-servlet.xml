@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+	default-lazy-init="false">
+
+
+	<bean id="log4jInitializer"
+		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		<property name="staticMethod"
+			value="org.springframework.util.Log4jConfigurer.initLogging" />
+		<property name="arguments">
+			<list>
+				<value>WEB-INF/log4j.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="inicioController" class="com.alaclave.controllers.InicioController">
+		<property name="view" value="Main" />
+	</bean>
+
+	<bean id="redirectController" class="com.alaclave.controllers.RedirectController">
+		<property name="traceMap">
+			<map>
+				<entry key="conciertojunio09">
+					<value>Algunos de nuestros alumnos en concierto</value>
+				</entry>
+				<entry key="sobresalientes">
+					<value>Galería de sobresalientes</value>
+				</entry>
+				<entry key="notables">
+					<value>Galería de notables</value>
+				</entry>
+				<entry key="noveles">
+					<value>Galería de noveles</value>
+				</entry>
+				<entry key="principiantes">
+					<value>Galería de principantes</value>
+				</entry>
+				<entry key="cantonot">
+					<value>Cantantes</value>
+				</entry>
+				<entry key="actuaciones">
+					<value>Actuaciones y Concursos</value>
+				</entry>
+				<entry key="contacto">
+					<value>Contacto</value>
+				</entry>
+				<entry key="distribuciones">
+					<value>Pianos</value>
+				</entry>
+				<entry key="distribuciones2">
+					<value>Libros</value>
+				</entry>
+				<entry key="distribuciones3">
+					<value>Accesorios</value>
+				</entry>
+				<entry key="enlaces">
+					<value>Enlaces de Interés</value>
+				</entry>
+				<entry key="ensenanzas">
+					<value>Piano</value>
+				</entry>
+				<entry key="ensenanzas2">
+					<value>Canto</value>
+				</entry>
+				<entry key="instalaciones">
+					<value>Instalaciones</value>
+				</entry>
+				<entry key="localizacion">
+					<value>Localización</value>
+				</entry>
+				<entry key="mapa">
+					<value>Mapa de la Web</value>
+				</entry>
+				<entry key="metodo">
+					<value>Método Piano</value>
+				</entry>
+				<entry key="metodo2">
+					<value>Método Canto</value>
+				</entry>
+				<entry key="metodo3">
+					<value>Método Violín</value>
+				</entry>
+				<entry key="noticias">
+					<value>Noticias</value>
+				</entry>
+				<entry key="ofertas">
+					<value>Promociones especiales</value>
+				</entry>
+				<entry key="prensa">
+					<value>Apariciones en Prensa</value>
+				</entry>
+				<entry key="presentacion">
+					<value>Saludo del Director</value>
+				</entry>
+				<entry key="publicidad">
+					<value>Publicidad</value>
+				</entry>
+				<entry key="software">
+					<value>Software de Utilidad</value>
+				</entry>
+				<entry key="sugerencias">
+					<value>Buzón de Sugerencias</value>
+				</entry>
+				<entry key="admin">
+					<value>Administración</value>
+				</entry>
+				<entry key="videos">
+					<value>Vídeos</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="resultSearchController" class="com.websearch.controllers.ResultSearchController">
+		<property name="view" value="WebSearch" />
+		<property name="trace" value="Resultados de búsqueda" />
+	</bean>
+
+	<bean id="loginController" class="com.weblogin.controllers.LoginController">
+		<property name="view" value="WebLogin" />
+		<property name="trace" value="Autentificación en la Web" />
+	</bean>
+
+	<bean id="registerController" class="com.weblogin.controllers.RegisterController">
+		<property name="view" value="WebRegister" />
+		<property name="trace" value="Registro en la Web" /> 
+	</bean>
+
+	<bean id="redirectLive" class="com.alaclave.controllers.RedirectLive">
+		<property name="view" value="redirect" />
+		<property name="redirectMap">
+			<map>
+				<entry key="piano">
+					<value>ensenanzas</value>
+				</entry>
+				<entry key="director">
+					<value>presentacion</value>
+				</entry>
+				<entry key="instalaciones">
+					<value>instalaciones</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<bean id="urlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="urlMap">
+			<map>
+				<entry key="/main.do">
+					<ref bean="inicioController" />
+				</entry>
+				<entry key="/busqueda.do">
+					<ref bean="resultSearchController" />
+				</entry>
+				<entry key="/login.do">
+					<ref bean="loginController" />
+				</entry>
+				<entry key="/register.do">
+					<ref bean="registerController" />
+				</entry>
+				<entry key="/*.do">
+					<ref bean="redirectController" />
+				</entry>
+				<entry key="/srv.*">
+					<ref bean="redirectLive" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+   
+
+
+	<!-- <bean id="urlViewController" class="org.springframework.web.servlet.mvc.UrlFilenameViewController" 
+		/> -->
+	<!-- <bean id="formController" class="org.springframework.web.servlet.mvc.SimpleFormController"> 
+		<property name="formView" value="account" /> <property name="successView" 
+		value="account-created" /> <property name="commandName" value="Account" /> 
+		<property name="commandClass" value="samples.Account" /> </bean> -->
+
+</beans>

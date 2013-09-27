@@ -1,0 +1,2 @@
+serviceClass: com.weblogin.client.LoginService
+path: 8D0513B13BD5E5CD84A407BCE518CDD0.gwt.rpc

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Academia La Clave. Noticias</title>
+	<link>http://www.academialaclave.com/rss/rss.xml</link>
+	<description>Noticias de Acedemia La Clave, en Collado Villalba</description>
+	<lastBuildDate>12 Sep 2010 18:37:00 GMT</lastBuildDate>
+	<language>es_ES</language>
+	<atom:link href="http://www.academialaclave.com/rss/rss.xml" rel="self" type="application/rss+xml" />
+
+	<item>
+		<title>Concierto de alumnos Junio 2009</title>
+		<link>http://www.academialaclave.com/rss/rss.xml/1</link>
+		<guid>http://www.academialaclave.com/rss/rss.xml/1</guid>
+		<pubDate>25 Jun 2009 GMT</pubDate>
+		<description>La web está renovada</description>
+	</item>
+
+</channel>
+</rss>
+	
+	

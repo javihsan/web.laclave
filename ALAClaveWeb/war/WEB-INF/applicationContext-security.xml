@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- - Sample namespace-based configuration - -->
+
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+
+	<!-- <http use-expressions="true"> <intercept-url pattern="/secure/extreme/**" 
+		access="hasRole('ROLE_SUPERVISOR')"/> <intercept-url pattern="/secure/**" 
+		access="isAuthenticated()" /> Disable web URI authorization, as we're using 
+		<global-method-security> and have @Secured the services layer instead <intercept-url 
+		pattern="/listAccounts.html" access="isRememberMe()" /> <intercept-url pattern="/post.html" 
+		access="hasRole('ROLE_TELLER')" /> <intercept-url pattern="/**" access="permitAll" 
+		/> <form-login /> <logout /> <remember-me /> -->
+	<!-- Uncomment to enable X509 client authentication support <x509 /> -->
+	<!-- Uncomment to limit the number of sessions a user can have -->
+	<!-- <session-management invalid-session-url="/timeout.jsp"> <concurrency-control 
+		max-sessions="1" error-if-maximum-exceeded="true" /> </session-management> 
+		</http> -->
+
+<!-- 
+	<authentication-manager>
+		<authentication-provider>
+			<user-service>
+				<user name="scott" password="pass1" authorities="ROLE_USER" />
+				<user name="peter" password="pass2" authorities="ROLE_USER" />
+			</user-service>
+		</authentication-provider>
+	</authentication-manager>
+
+	<http auto-config='true'>
+		<intercept-url pattern="/login.do*" access="IS_AUTHENTICATED_ANONYMOUSLY" />
+		<intercept-url pattern="/admin*" access="ROLE_USER" />
+		<form-login login-page='/login.do' />
+	</http>
+-->
+
+	<http use-expressions="true" entry-point-ref="gwtEntryPoint">
+		<!--<intercept-url pattern="/register.do*" access="hasRole('NEW_USER')" />-->
+		<intercept-url pattern="/**admin**" access="hasRole('ADMIN')" />
+		<intercept-url pattern="/**/**admin**/**" access="hasRole('ADMIN')" />
+		<custom-filter position="PRE_AUTH_FILTER" ref="gwtFilter" />  
+	</http>
+	
+	<beans:bean id="gwtEntryPoint" class="com.weblogin.aut.AccountsAuthenticationEntryPoint" />
+	
+	<beans:bean id="gwtFilter" class="com.weblogin.aut.AuthenticationFilter">
+		<beans:property name="authenticationManager" ref="gwtAuthenticationManager" />
+		<beans:property name="registrationUrl" value="/register.do" />
+	</beans:bean>
+	
+	<authentication-manager alias="gwtAuthenticationManager">
+		<authentication-provider
+			ref="gwtAuthenticationProvider" />
+	</authentication-manager>
+
+
+	<beans:bean id="gwtAuthenticationProvider" 	class="com.weblogin.aut.AccountsAuthenticationProvider">
+		<beans:property name="userRegistry" ref="gwtUserRegistry" />
+		<beans:property name="usersAuthenticated">
+			<beans:list>
+				<beans:value>javihsan@gmail.com</beans:value>
+				<beans:value>clavelegaza@gmail.com</beans:value>
+			</beans:list>
+		</beans:property>
+	</beans:bean>
+	
+	<beans:bean id="gwtUserRegistry" class="com.weblogin.aut.DatastoreUserRegistry" />
+
+
+</beans:beans>
