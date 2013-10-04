@@ -71,16 +71,18 @@
 				</li>
 				</ul>
 			 </td>
-			 <!-- 
-			 <td>
+			 </tr>
+			 <tr>
 			 <td>
 				<ul>
 				<li>
-					20130615120512 Título (Autor) por Carlota Vangioni Gómez <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/Nb7I_yAYXoU" frameborder="0" allowfullscreen></iframe>
+					Carlota Vangioni Gómez <br><br>
+					<iframe width="200" height="180" src="http://www.youtube.com/embed/pLByyVkyaTE" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
-			 </td> -->
+			 </td>
+			 <td>&nbsp;</td>
+			 <td>&nbsp;</td>
 			 </tr>
 			</table>
 
