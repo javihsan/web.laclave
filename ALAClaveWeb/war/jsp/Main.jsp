@@ -33,7 +33,20 @@
  			 		</div>
  			 	</td>
 			</tr>	
-			</table>
+			<tr>
+				<td width="15%">
+					<div id="violin">
+						<a href="media/FelicitaNavidad.pps" class="undefined" title="Escuchar felecitacion Navidad"><img src="images/felicitacionNavidad.jpg" width="90px" hesight="40px" border="0" alt="Violín" /><br>
+						<font id="parpadeo1">Escuchar</font>
+ 					</div>	
+				</td>
+				<td colspan="1" align="center">
+					<div id="portada_destacado">
+						<p>LES DEDICAMOS NUESTRO CHRISTMA NAVIDEÑO</p>
+ 			 		</div>
+ 			 	</td>
+			</tr>	
+ 			</table>
 		</td>
 		<td align="center">
 			
