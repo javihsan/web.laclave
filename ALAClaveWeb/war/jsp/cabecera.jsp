@@ -24,7 +24,7 @@ String trace = (String)request.getAttribute("trace");
 <link id="portal_css_print" rel="Stylesheet" type="text/css" href="css/marino_print.css" media="print">
 
 <title>Academia de Música La Clave</title>
-<link rel="shortcut icon" href="icons/laclave.ico" type="image/x-icon" />
+
 </HEAD>
 
 <BODY class="<%=bodyClass%>">
