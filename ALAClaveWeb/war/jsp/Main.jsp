@@ -28,7 +28,6 @@
 						objetiva, para aquellos que no dispongan de tiempo o por edad.</p>
 						<p>TODAS LAS CLASES SON INDIVIDUALES. UN PROFESOR POR CADA ALUMNO.INTENSAS Y MUY
 						PROGRESIVAS.</p>
-						<p>POSIBLES SOLUCIONES A LOS QUE NO DISPONGAN DE PIANO</p> 
 						<p>La música, el canto, te ayudan a tener alegría y a sentirte mejor.<br> ¡¡ NO LO DUDES !!</p>
  			 		</div>
  			 	</td>
