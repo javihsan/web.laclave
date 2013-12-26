@@ -12,7 +12,7 @@
     <tr>
 		<td colspan="2" align="right" class="contentOptions"></td>
 	</tr>
-	<tr height="280px">
+	<tr height="100px">
 		<td width="50px" align="right">
 			&nbsp;
 		</td>
@@ -31,7 +31,7 @@
 						<p>La música, el canto, te ayudan a tener alegría y a sentirte mejor.<br> ¡¡ NO LO DUDES !!</p>
  			 		</div>
  			 	</td>
-			</tr>
+			</tr>	
 			<tr>
 				<td width="15%">
 					<div id="violin">
@@ -44,7 +44,7 @@
 						<p>LES DEDICAMOS NUESTRO CHRISTMA NAVIDEÑO</p>
  			 		</div>
  			 	</td>
-			</tr>		
+			</tr>	
  			</table>
 		</td>
 		<td align="center">
@@ -80,21 +80,10 @@
 	<tr height="20px">
 		<td colspan="3"></td>
 	</tr>
-	<tr>
+	<tr height="100%">
 		<td colspan="2" valign="top">
-		<div style="position: absolute; top:640px; left: 365px;">
-			<img src="images/nueva/logo_claveCentro.jpg" border="0" width="150px" height="245px" />
-		</div>
-			<table cellspacing="0" cellpadding="3" align="center" width="100%" border="0">
-			<tr>
-				<td><img src="images/nueva/Javier.bmp" border="0" width="100%" height="330px" /></td>
-				<td><img src="images/nueva/Todos.bmp" border="0" width="100%" height="330px" /></td>
-			</tr>
-			<tr>
-				<td><img src="images/nueva/TodosEscena.bmp" border="0" width="100%" height="330px" /></td>
-				<td><img src="images/nueva/Benito.bmp" border="0" width="100%" height="330px" /></td>
-			</tr>
-			</table>	
+			<div align="center"><img src="images/portada_nueva_20090930.jpg"
+				border="0" alt="Portada La Clave" width="630" height="670"/></div>
 		</td>
 		<td align="right" valign="top" width="180px">
 			<img src="images/ninos1.jpg" border="0" width="170px" alt="Niños 1" />

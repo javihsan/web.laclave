@@ -20,7 +20,7 @@
 	<bean id="inicioController" class="com.alaclave.controllers.InicioController">
 		<property name="view" value="Main" />
 	</bean>
-
+	
 	<bean id="redirectController" class="com.alaclave.controllers.RedirectController">
 		<property name="traceMap">
 			<map>

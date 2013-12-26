@@ -39,12 +39,21 @@ String trace = (String)request.getAttribute("trace");
 
 <div class="headerContent">
 
+
 <div id="content-detail">
-		<a href="main.do"><img src="images/nueva/izquierdaCab.jpg"   alt="Cabecera La Clave" width="419" height="82" /></a>
-		<img src="images/nueva/SaludoCab.jpg"      alt="Cabecera La Clave" width="115"  height="82" />
-		<img src="images/nueva/pianoNegro2Cab.jpg"	alt="Cabecera La Clave" width="135"  height="82" />
-		<img src="images/nueva/TodosCab.bmp" 	    alt="Cabecera La Clave" width="115"  height="82" />
-		<img src="images/nueva/pianoNegroCab.jpg" 	alt="Cabecera La Clave" width="135"  height="82" />
+
+
+<table cellspacing="0" cellpadding="0" width="98%" height="100%" border="0">
+	<tr>
+		<td class="contentOptions"></td>
+	</tr>
+	<tr height="100%">
+		<td align="left" valign="top"><!-- <h1 class="cabecera">Cabecera</h1> -->
+			<a href="main.do">
+			<img src="images/cabecera.jpg" 	border="0" alt="Cabecera La Clave" width="959" height="80" /></a>
+		</td>
+	</tr>
+</table>
 </div>
 
 </div>

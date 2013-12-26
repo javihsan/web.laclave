@@ -11,7 +11,8 @@ body {background:url(../images/bg1.gif) repeat-y top center #eaeaea; color:#3a3a
 #logo_clickable {top:5px; left:0px; cursor: pointer; z-index:20; }
 #header .contentOptions{display: none;}
 /*Para que en internet Explorer se vea correctamente con el fondo del header */
-#header div.headerContent #content-detail{float:left; width:65%;}
+#header div.headerContent #content-detail{float:left; width:100%; height:120px;}
+#header div.headerContent img {float:left; margin-left:10; padding: 0px 0px 0px 0px;}
 
 
 /* Left sidebar and menu*/
