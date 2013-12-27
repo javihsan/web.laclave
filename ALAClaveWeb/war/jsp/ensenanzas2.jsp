@@ -14,9 +14,9 @@
 	</tr>
 	<tr height="100%">
 		<td valign="top"><!-- <h1 class="cabecera">Canto</h1> -->
-
-
+		
 		<h2>Clases individuales de canto</h2>
+		<p style="font-size: 15px;"><a href="cantonot.do">Ver nuestra Galería de Canto</a></p>
 		<table border="0">
 			<tbody>
 				<tr>
@@ -50,11 +50,9 @@
 						href="media/Canto_Copla1a546.mp3"
 						target="_blank" title="link" class="undefined">Audio 1</a></p>
 					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
 					</td>
 				</tr>
 			</tbody>
 		</table>
-
+				
 <%@include file="pie.jsp"%>

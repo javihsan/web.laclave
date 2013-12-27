@@ -65,35 +65,18 @@
 					<p class="prensa_destacado">
 						PRESENTACION AL CONCURSO INTERNACIONAL LANG LANG - A. BERLIN <br><br>
 					</p>
-					<object type="application/x-shockwave-flash" width="320" height="263" id="FlowPlayer" data="media/FlowPlayerWhite.swf">
-				  		<param name="movie" value="media/FlowPlayerWhite.swf"/>
-				  		<param name="scale" value="noScale"/>
-				  		<param name="wmode" value="transparent"/>
-				  		<param name="allowScriptAccess" value="sameDomain"/>
-				  		<param name="quality" value="high"/>
-				  		<param name="flashvars" value="config={loop: false,autoPlay:false, initialScale: 'fit', 
-				  		videoFile: 'saludoConcurso.flv'} "/>
-					</object><br><br>
 				</li>
 				</ul>
 			 </td>
 			 </tr>
 			 <tr>
 			 <td>
-				<ul>
-				<li>
 					Concurso Internacional LANG LANG -A  BERLIN<br>Sonata en C mayor(W.A. Mozart) por Anne Coll Franck <b>Abril 2012</b><br><br>
 					<iframe width="300" height="220" src="http://www.youtube.com/embed/RT3EpBJAu3M" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
 			 </td>
 			 <td>
-				<ul>
-				<li>
 					Concurso Internacional LANG LANG -A  BERLIN<br>Sonata en C mayor(W.A. Mozart) por Livia Coll Franck <b>Abril 2012</b><br><br>
 					<iframe width="300" height="220" src="http://www.youtube.com/embed/gnH5LogqluM" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
 			</td>
 			</tr>
 			</table>

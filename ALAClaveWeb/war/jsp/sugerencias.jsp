@@ -14,15 +14,15 @@
 	<tr height="100%">
 		<td valign="top"><!-- <h1 class="cabecera">Buzón de Sugerencias</h1> -->
 
-
+		<div style="font-size: 14px;">
 		<p>&nbsp;</p>
 		<p align="center">Comun&iacute;quenos sus sugerencias sobre
 		nuestras ofertas y promociones de pianos y teclados, as&iacute; como
 		nuestros m&eacute;todos de ense&ntilde;ananza.</p>
 		<p align="center">Para ello env&iacute;enos un e-mail a la
-		siguiente direcci&oacute;n indicando sus datos personales: <a
-			href="mailto:laclavemayor@eresmas.com">laclavemayor@eresmas.com</a>&nbsp;o
+		siguiente direcci&oacute;n indicando sus datos personales: 
 		<a href="mailto:clavelegaza@gmail.com">clavelegaza@gmail.com</a></p>
 		<p>&nbsp;</p>
+		</div>
 
 <%@include file="pie.jsp"%>

@@ -22,7 +22,7 @@
 			<tbody>
 				<tr>
 					<td>
-					<p>&nbsp;</p>
+					<p style="font-size: 15px;"><a href="notables.do">Ver nuestra Galería de Notables</a></p>
 					<p><strong>ENSE&Ntilde;ANZA DE PIANO M&Uacute;SICA
 					MODERNA</strong>:</p>
 					<p align="justify">De todos los temas, actuales o de siempre.

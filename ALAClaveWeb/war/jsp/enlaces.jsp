@@ -15,7 +15,7 @@
 		<td valign="top"><!-- <h1 class="cabecera">Enlaces de Interés</h1> -->
 
 
-		<ul>
+		<ul style="font-size: 16px;">
 			<li>
 			<h4><a
 				href="http://www.pedrogordillo.com/grandes-compositores-de-la-copla/"
