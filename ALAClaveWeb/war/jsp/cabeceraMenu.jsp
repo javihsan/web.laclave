@@ -138,7 +138,7 @@
 					<td valign="top" colspan="2">
 					<div align="center">
 					<img
-						src="images/notables.jpg"
+						src="images/nueva/GaleriaNot.bmp"
 						alt="Concierto Junio 2009" border="0" width="120" height="90">
 					</div>
 					<div class="portal-menu" align="center">

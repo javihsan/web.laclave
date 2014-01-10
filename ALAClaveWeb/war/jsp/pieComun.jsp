@@ -28,8 +28,8 @@
 					<p align="center">E_mail:<a
 						href="mailto:clavelegaza@gmail.com">clavelegaza@gmail.com</a> </p>
 					<p align="center">&nbsp;</p>
-					<!-- <p>&nbsp;</p> -->
-					<p style="color:#ffffff;">www.perepeluqueros.com</p>
+					 <p>&nbsp;</p> 
+					<!--<p style="color:#ffffff;">www.perepeluqueros.com</p>-->
 					</td>
 				</tr>
 			</tbody>

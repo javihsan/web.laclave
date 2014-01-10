@@ -12,7 +12,7 @@
     <tr>
 		<td colspan="2" align="right" class="contentOptions"></td>
 	</tr>
-	<tr height="180px">
+	<tr height="280px">
 		<td width="50px" align="right">
 			&nbsp;
 		</td>
@@ -31,7 +31,20 @@
 						<p>La música, el canto, te ayudan a tener alegría y a sentirte mejor.<br> ¡¡ NO LO DUDES !!</p>
  			 		</div>
  			 	</td>
-			</tr>	
+			</tr>
+			<tr>
+				<td width="15%">
+					<div id="violin">
+						<a href="media/FelicitaNavidad.pps" class="undefined" title="Escuchar felecitacion Navidad"><img src="images/felicitacionNavidad.jpg" width="90px" hesight="40px" border="0" alt="Violín" /><br>
+						<font id="parpadeo1">Escuchar</font>
+ 					</div>	
+				</td>
+				<td colspan="1" align="center">
+					<div id="portada_destacado">
+						<p>LES DEDICAMOS NUESTRO CHRISTMA NAVIDEÑO</p>
+ 			 		</div>
+ 			 	</td>
+			</tr>		
  			</table>
 		</td>
 		<td align="center">
@@ -69,7 +82,7 @@
 	</tr>
 	<tr>
 		<td colspan="2" valign="top">
-		<div style="position: absolute; top:540px; left: 365px;">
+		<div style="position: absolute; top:640px; left: 365px;">
 			<img src="images/nueva/logo_claveCentro.jpg" border="0" width="150px" height="245px" />
 		</div>
 			<table cellspacing="0" cellpadding="3" align="center" width="100%" border="0">
