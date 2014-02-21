@@ -23,29 +23,11 @@
 			<td>
 				<ul>
 				<li>
-					Gymnopédie (E. Satie) por Marina Briones <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/PK-LF3PUCFE" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 <td>
-				<ul>
-				<li>
-					Plaisir D'Amour  (Martini) por Marina Briones <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/ds4fU0W46G0" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 <td>
-				<ul>
-				<li>
 					Nocturno en Do# menor (F. Chopin) por Sandra Carvajal Abad <br><br>
 					<iframe width="200" height="180" src="http://www.youtube.com/embed/Nb7I_yAYXoU" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			 </td>
-			 </tr>
-			<tr>
 			  <td>
 				<ul>
 				<li>
@@ -62,6 +44,8 @@
 				</li>
 				</ul>
 			 </td>
+			 </tr>
+			 <tr>
 			 <td>
 				<ul>
 				<li>
@@ -70,8 +54,6 @@
 				</li>
 				</ul>
 			</td>
-			</tr>
-			<tr>
 			<td>
 				<ul>
 				<li>
@@ -88,6 +70,8 @@
 				</li>
 				</ul>
 			</td>
+			</tr>
+			<tr>
 			<td>
 				<ul>
 				<li>
@@ -96,8 +80,6 @@
 				</li>
 				</ul>
 			 </td>
-			</tr>
-			<tr>
 			 <td>
 				<ul>
 				<li>
@@ -114,6 +96,8 @@
 				</li>
 				</ul>
 			 </td>
+			 </tr>
+			 <tr>
 		  	 <td>
 				<ul>
 				<li>
@@ -122,7 +106,6 @@
 				</li>
 				</ul>
 			 </td>
-			 <tr>
 			 <td>
 				<ul>
 				<li>
