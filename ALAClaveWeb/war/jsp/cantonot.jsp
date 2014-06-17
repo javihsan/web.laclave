@@ -23,8 +23,8 @@
 			<td>
 				<ul>
 				<li>
-					TE EXTRAÑO por MYRIAN GAUBE <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/xxzl-peKBPE" frameborder="0" allowfullscreen></iframe>
+					TRY por LEONOR ESCOBAR <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/I5I9j6VwXf8" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			 </td>
@@ -41,8 +41,8 @@
 			<td>
 				<ul>
 				<li>
-					AMAR Y VIVIR por MYRIAN GAUBE <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/O75A4fu2paI" frameborder="0" allowfullscreen></iframe>
+					STAY por ROSE LUCÍA HOYO RUÍZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/A-b0ki4CErY" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			 </td>
@@ -85,8 +85,8 @@
 			 <td>
 				<ul>
 				<li>
-					FIRE TO THE RAIN por LEONOR ESCOBAR <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/QDCwi9vLdUI" frameborder="0" allowfullscreen></iframe>
+					ROYALS por ROSE LUCÍA HOYO RUIZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/jowRDab9yP4" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			</td>
@@ -95,7 +95,7 @@
 			<td>
 				<ul>
 				<li>
-					BACK TO BLACK por ROSE HOYO <br><br>
+					BACK TO BLACK por ROSE LUCÍA HOYO RUÍZ <br><br>
 					<iframe width="300" height="220" src="http://www.youtube.com/embed/FQ5awLCcTt4" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
@@ -103,8 +103,26 @@
 			 <td>
 				<ul>
 				<li>
-					FEVER por ROSE HOYO <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/su9-p_QfVOo" frameborder="0" allowfullscreen></iframe>
+					MY WAY (A mi manera) por JAVIER CRESPO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/lD74aW1yhVA" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					LUCÍA por JAVIER CRESPO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/VlMNYGWwWOs" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			 </td>
+			 <td>
+				<ul>
+				<li>
+					YOUNG AND BEAUTIFUL por ROSE y LEONOR <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/Uw7JbXLDy4E" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			</td>
