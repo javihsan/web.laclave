@@ -83,16 +83,16 @@
 			 <td>
 				<ul>
 				<li>
-					El lago de Como (C. Galos) por Isabel Rodríguez <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/HigZFsUxa_8" frameborder="0" allowfullscreen></iframe>
+					Preludio (C. Debussy) por Yuki Sepulveda <br><br>
+					<iframe width="200" height="180" src="http://www.youtube.com/embed/vGFfsQpDwis" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			 </td>
-			 <td>
+			 	<td>
 				<ul>
 				<li>
-					Preludio (C. Debussy) por Yuki Sepulveda <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/vGFfsQpDwis" frameborder="0" allowfullscreen></iframe>
+					Preludio op 3/2 (S. Rachmaninov) por Anne Coll Franck <br><br>
+					<iframe width="200" height="180" src="http://www.youtube.com/embed/CFqX2DLaZYA" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			 </td>
@@ -114,15 +114,7 @@
 				</li>
 				</ul>
 			</td>
-			<td>
-				<ul>
-				<li>
-					Preludio op 3/2 (S. Rachmaninov) por Anne Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/CFqX2DLaZYA" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 <td>&nbsp;</td>
+		   <td>&nbsp;</td>
 			</tr>
 			</table>
 
