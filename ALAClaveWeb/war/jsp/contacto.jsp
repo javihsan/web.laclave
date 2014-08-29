@@ -15,8 +15,7 @@
 	<tr height="100%">
 		<td valign="top"><!-- <h1 class="cabecera">Contacto</h1> -->
 
-
-		<table border="0" style="width: 661px; height: 232px">
+		<table border="0" style="width: 761px; height: 232px">
 			<tbody>
 				<tr>
 					<td>
@@ -35,8 +34,8 @@
 					(Director)</strong></p>
 					<p><strong>C/ Real, 34 -&nbsp;2&ordm;</strong></p>
 					<p><strong>28400 Collado Villalba (Madrid)</strong></p>
-					<p><strong>Tel&eacute;fono y Fax: 91 850 43 58</strong></p>
-					<p><strong>M&oacute;vil: 667 406 248</strong></p>
+					<p><strong>Tel&eacute;fono y Fax: 91 850 43 58</strong> <font class="small">CONTESTADOR, DEJAR MENSAJE</font></p>
+					<p><strong>M&oacute;vil: 667 406 248</strong> <font class="small">HABLAR DE INMEDIATO</font></p>
 					<p><strong>e-mail: </strong><a href="mailto:clavelegaza@gmail.com"><strong>clavelegaza@gmail.com</strong></a></p>
 					<p>&nbsp;</p>
 					</td>

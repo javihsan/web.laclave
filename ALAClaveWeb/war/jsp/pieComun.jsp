@@ -23,8 +23,8 @@
 					<p align="center">Escuela de Piano y Canto</p>
 					<p align="center">C/ Real, 34 - 2&ordm;</p>
 					<p align="center">28400 Collado Villalba (Madrid)</p>
-					<p align="center">Tel&eacute;fono y Fax: 91 850 43 58</p>
-					<p align="center">M&oacute;vil: 667 406 248</p>
+					<p align="center">Tel&eacute;fono y Fax: 91 850 43 58 <font class="smallFooter">CONTESTADOR, DEJAR MENSAJE</font></p>
+					<p align="center">M&oacute;vil: 667 406 248 <font class="smallFooter">HABLAR DE INMEDIATO</font></p>
 					<p align="center">E_mail:<a
 						href="mailto:clavelegaza@gmail.com">clavelegaza@gmail.com</a> </p>
 					<p align="center">&nbsp;</p>

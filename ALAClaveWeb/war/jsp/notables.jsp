@@ -75,8 +75,8 @@
 			<td>
 				<ul>
 				<li>
-					Nocturno en Do# menor (F. Chopin) por Sandra Carvajal Abad <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/Nb7I_yAYXoU" frameborder="0" allowfullscreen></iframe>
+					Vals nº7 op 64 en DO# menor (F. Chopin) por Livia Coll Franck <br><br>
+					<iframe width="200" height="180" src="http://www.youtube.com/embed/EbwDYrzx4bc" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			</td>
@@ -88,85 +88,7 @@
 				</li>
 				</ul>
 			</td>
-			<td>
-				<ul>
-				<li>
-					Sueños de amor (F. Liszt) por Anne Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/OzKi-xfBACo" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			</tr>
-			<tr>
-			<td>
-				<ul>
-				<li>
-					Fantasía Improntum en Do# menor (F. Chopin) por Anne Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/4g_pBHfMQsQ" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-				<li>
-					Vals nº7 op 64 en DO# menor (F. Chopin) por Livia Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/EbwDYrzx4bc" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-				<li>
-					Sonatina op 36 en SOL (Clementi) por Livia Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/21JgcKfyYZo" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			</tr>
-			<tr>
-			<td>
-				<ul>
-				<li>
-					Gymnopédie (E. Satie) por Sandra Carvajal Abad <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/v_uuMJPX3Xk" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 <td>
-				<ul>
-				<li>
-					Preludio (C. Debussy) por Yuki Sepulveda <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/vGFfsQpDwis" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 <td>
-				<ul>
-				<li>
-					Preludio op 3/2 (S. Rachmaninov) por Anne Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/CFqX2DLaZYA" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 </tr>
-			 <tr>
-		  	 <td>
-				<ul>
-				<li>
-					Danza de la Seducción (J.Turina) por Livia Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/uxZTipZWSWE" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 <td>
-				<ul>
-				<li>
-					Preludio op 28-15 'Raindrop' (F. Chopin) por Livia Coll Franck <br><br>
-					<iframe width="200" height="180" src="http://www.youtube.com/embed/taMMzbtFb0g" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-		   <td>&nbsp;</td>
+			<td>&nbsp;</td>
 			</tr>
 			</table>
 
