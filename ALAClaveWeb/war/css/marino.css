@@ -24,6 +24,7 @@ body {background:url(../images/bg1.gif) repeat-y top center #eaeaea; color:#3a3a
 #leftside div.portal-menu ul ul {text-align:left; margin-top:0px;  width:117px; left: 0px; }
 #leftside div.portal-menu ul ul li {clear: both; }
 #leftside div.portal-menu ul ul a {background: #dff1ff; margin: 0px 0px 0px 2px;border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; color:#696969;  font-size:0.9em; font-weight:500; margin-bottom:0px; padding: 3px 0px 2px 5px; text-decoration:none; width:115px}
+#leftside div.red ul ul a {color:red; font-size:1.0em; font-weight:600;}
 #leftside h2 {font-size:1.5em; font-weight:400;}
 #leftside .contentOptions{display: none;}
 

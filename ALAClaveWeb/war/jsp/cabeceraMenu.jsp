@@ -130,37 +130,37 @@
 				</tr> -->
 				<tr>
 					<td valign="top" align="center" colspan="2">
-					<b><font style="font-size: 9px">
-					NUESTROS ALUMNOS TOCANDO EL PIANO</font></b>
+					<b><font style="font-size: 0.9em; color:red;">
+					ALUMNOS ACTUANDO AL PIANO Y CANTANDO</font></b>
 				</td>
 				</tr>
 				<tr>
 					<td valign="top" colspan="2">
-					<div align="center">
-					<img
-						src="images/nueva/GaleriaNot.bmp"
-						alt="Concierto Junio 2009" border="0" width="120" height="90">
-					</div>
-					<div class="portal-menu" align="center">
-					<ul>	
-						<ul>
-							<li><a href="sobresalientes.do">Sobresalientes</a></li>	
+						<div class="portal-menu red" align="center">
+						<ul style="font-size: 0.9em; color:red;">	
+							<ul>
+								<li><a href="sobresalientes.do">Sobresalientes</a></li>	
+							</ul>
+							<ul>
+								<li><a href="notables.do">Notables</a></li>	
+							</ul>
+							<!--<ul>
+								<li><a href="noveles.do">Noveles</a></li>	
+							</ul> -->
+							<ul>	
+								<li><a href="principiantes.do">Principiantes</a></li>
+							</ul>
+							<ul>	
+								<li><a href="cantonot.do">Canto</a></li>
+							</ul>
 						</ul>
-						<ul>
-							<li><a href="notables.do">Notables</a></li>	
-						</ul>
-						<!--<ul>
-							<li><a href="noveles.do">Noveles</a></li>	
-						</ul> -->
-						<ul>	
-							<li><a href="principiantes.do">Principiantes</a></li>
-						</ul>
-						<ul>	
-							<li><a href="cantonot.do">Canto</a></li>
-						</ul>
-					</ul>
-					</div>
-					<hr noshade="noshade">
+						</div>
+						<div align="center">
+							<img
+								src="images/nueva/GaleriaNot.bmp"
+								alt="Concierto Junio 2009" border="0" width="120" height="90">
+						</div>
+						<hr noshade="noshade">
 					</td>
 				</tr>
 				<tr>
