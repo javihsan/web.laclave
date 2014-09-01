@@ -72,7 +72,7 @@
 			<div style="position: absolute; top:540px; left: 365px;">
 				<img src="images/nueva/logo_claveCentro.jpg" border="0" width="150px" height="245px" />
 			</div>
-			<table cellspacing="0" cellpadding="3" align="center" width="100%" border="1">
+			<table cellspacing="0" cellpadding="3" align="center" width="100%" border="0">
 				<tr>
 					<td width="50%"><img src="images/nueva/Javier.bmp" border="0" width="100%" height="330px" /></td>
 					<td><img src="images/nueva/TodosEscena.jpg" border="0" width="100%" height="330px" /></td>
