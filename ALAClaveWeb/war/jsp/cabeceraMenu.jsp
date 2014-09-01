@@ -118,7 +118,7 @@
 		<td valign="top">
 		<table border="0" bgcolor="#FFFFFF">
 			<tbody>
-				<tr>
+				<!-- <tr>
 					<td bgcolor="#00549a" height="10px">
 					<div align="left">
 						<b><font style="font-size: 10px; color: #FFFFFF">&nbsp;GALERIA DE<br>&nbsp;NOTABLES</font></b>
@@ -127,11 +127,11 @@
 					<td bgcolor="#00549a">
 					<div align="right"></div>
 					</td>
-				</tr>
+				</tr> -->
 				<tr>
 					<td valign="top" align="center" colspan="2">
 					<b><font style="font-size: 9px">
-					VER A NUESTROS ALUMNOS EN ACCIÓN</font></b>
+					NUESTROS ALUMNOS TOCANDO EL PIANO</font></b>
 				</td>
 				</tr>
 				<tr>
@@ -149,9 +149,9 @@
 						<ul>
 							<li><a href="notables.do">Notables</a></li>	
 						</ul>
-						<ul>
+						<!--<ul>
 							<li><a href="noveles.do">Noveles</a></li>	
-						</ul>
+						</ul> -->
 						<ul>	
 							<li><a href="principiantes.do">Principiantes</a></li>
 						</ul>
