@@ -24,8 +24,8 @@
 					<div id="portada_menos_destacado">
 					<p>LA ACADEMIA ESPECIALIZADA EN LA ENSEÑANZA DE <a href="metodo.do" title="Método piano">PIANO</a> Y DE <a href="metodo2.do" title="Método canto">CANTO</a></p>
 					<p>La de <a href="metodo.do" title="Método piano">PIANO</a>, en forma clásica y profesional para ingreso en CONSERVATORIOS, o cultura
-						musical de alto nivel y en segundo lugar PARA OCIO Y ENTRETENIMIENTO, de forma práctica y
-						objetiva, para aquellos que no dispongan de tiempo o por edad.</p>
+						musical de alto nivel y en segundo lugar PARA OCIO Y ENTRETENIMIENTO, de forma PRÁCTICA y
+						OBJETIVA, para aquellos que no dispongan de tiempo o por edad.</p>
 						<p>TODAS LAS CLASES SON INDIVIDUALES. UN PROFESOR POR CADA ALUMNO.INTENSAS Y MUY
 						PROGRESIVAS.</p>
 						<p>La música, el canto, te ayudan a tener alegría y a sentirte mejor.<br> ¡¡ NO LO DUDES !!</p>
@@ -61,7 +61,9 @@
      		
      			<script>var addthis_language = "es";</script>
 				<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4dccde4820e195aa"></script>
-			</p>			
+			</p>	
+		
+					
 		</td>
 	</tr>
 	<tr height="20px">
@@ -74,8 +76,8 @@
 			</div>
 			<table cellspacing="0" cellpadding="3" align="center" width="100%" border="0">
 				<tr>
-					<td width="50%"><img src="images/nueva/Javier.bmp" border="0" width="100%" height="330px" /></td>
-					<td><img src="images/nueva/TodosEscena.jpg" border="0" width="100%" height="330px" /></td>
+					<td width="50%"><img src="images/nueva/TodosEscena.jpg" border="0" width="100%" height="330px" /></td>
+					<td><img src="images/ninos4.jpg" border="0" width="100%" height="330px" /></td>
 				</tr>
 				<tr>
 					<td><img src="images/nueva/Todos.bmp" border="0" width="100%" height="330px" /></td>
@@ -87,7 +89,7 @@
 			<img src="images/ninos1.jpg" border="0" width="170px" alt="Niños 1" />
 			<img src="images/ninos2.jpg" border="0" width="170px" alt="Niños 2" />
 			<img src="images/ninos3.jpg" border="0" width="170px" alt="Niños 3" />
-			<img src="images/ninos4.jpg" border="0" width="170px" alt="Niños 4" />
+			<img src="images/nueva/TodosEscena2.bmp" border="0" width="170px" alt="Niños 4" />
 			<img src="images/ninos5.jpg" border="0" width="170px" alt="Niños 5" />
 		</td>
 	</tr>
@@ -98,33 +100,4 @@
 <style type="text/css">
 	body {background:url(../images/bg1.gif) repeat-y top center #eaeaea; color:#3a3a3a; margin:0 auto; padding:0; font:76% Verdana,Tahoma,Arial,sans-serif;	font-size: 11px;font-style: normal;font-variant: inherit;text-decoration: none;text-transform: none;width:auto;}
 </style>
-
-<script>
-var llevoParpadeado=0;
-var capa1=document.getElementById("parpadeo1");
-var capa2=document.getElementById("parpadeo2");
-var color1 = capa1.style.color
-var color2 = capa2.style.color
-function parpadea(veces, t, paron) {        //1 vez al segundo
-    //alert("parpadea ha sido llamado");
-    if(llevoParpadeado<veces) {
-    	capa1.style.color="white";
-    	capa2.style.color="white";
-        //alert("ejecuto un parpadeo, dentro de t en negro y dentro de 2t ejecutare un parpadea");
-        setTimeout("capa1.style.color=color1", t);
-        setTimeout("capa2.style.color=color2", t);
-        setTimeout("parpadea("+veces+", "+t+", "+paron+")", t*2);
-        llevoParpadeado++;
-        //alert("cambio llevoParpadeando, ahora es "+llevoParpadeado);
-    }
-    else {
-        //alert("hemos hecho todos los parpadeos, dentro de paron ("+paron+") ejecutare otra vez parpadea");
-        llevoParpadeado=0;
-        setTimeout("parpadea("+veces+", "+t+", "+paron+")", paron);
-    }
-}
-
-parpadea(22, 500, 10000);
-
-</script>
 

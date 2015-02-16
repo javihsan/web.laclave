@@ -409,6 +409,31 @@ hr {border:0; border-bottom:1px solid #d8d8d8;}
   font-style: bold;
  }
 
+.saludoDir {
+  color: #072570;	
+  padding: 3px;
+  font:Verdana,Tahoma,Arial,sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  text-align: justify;
+}
+
+.saludoDirMay {
+  margin-top: 20px;	
+  color: #072570;	
+  padding: 3px;
+  font:Verdana,Tahoma,Arial,sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  text-align: center;
+}
+
+#playMusic{
+	color: red;
+	backgrounds: red;
+	width: 120px;
+	border: 1px;
+}
 
 /*
 #formulario{ width: 100%; margin: 13px; }

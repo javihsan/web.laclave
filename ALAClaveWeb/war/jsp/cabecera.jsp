@@ -63,6 +63,7 @@ String trace = (String)request.getAttribute("trace");
 
 	}
 </script> 
+
 <div id="GlobalSearcher">
 <form style="margin: 0px; padding: 0px;" name="GlobalSearchForm"
 	method="post" onsubmit="return validar()" action="busqueda.do">
@@ -74,6 +75,7 @@ String trace = (String)request.getAttribute("trace");
 	src="images/lupa.jpg"
 	alt="Búsqueda" />
 </span>
+<button id="playMusic" onclick="playVid()" type="button">Música</button>
 </form>
 </div> 
 
@@ -106,7 +108,7 @@ if (main==null){
 		<dfn title="Mapa del web. Acceda desde aquí­ a todos los puntos del portal.">
 			<span class="label"> <a href="mapa.do">Mapa web</a></span>
 		</dfn> 
-		<span class="icon"> <a href="srv.html"><img
+		<span class="icon"> <a href="mapa.do"><img
 			src="/images/webmap.gif"
 			alt='Mapa del web. Acceda desde aquí a todos los puntos del portal.'
 			border="0" /></a> 
@@ -122,3 +124,46 @@ if (main==null){
 <div class="portal-decorator-header">
 <div class="portal-decorator-title"><%=trace%></div>
 </div>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+
+var mp3snd = "media/WebMisteriosa.mp3";
+
+document.write('<audio id="musicBG">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="1">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+var vid = document.getElementById("musicBG"); 
+var playMusic = document.getElementById("playMusic");
+console.log("000",sessionStorage.getItem("playing"));
+if (sessionStorage.getItem("playing")==null) {
+	sessionStorage.setItem("playing", "true");
+	console.log("111",sessionStorage.getItem("playing"));
+}
+if (sessionStorage.getItem("playing")=="true") {
+	vid.play();
+	playMusic.innerHTML='Parar música';
+} else {
+	vid.pause();
+	playMusic.innerHTML='Escuchar música';
+}
+function playVid() { 
+	if (sessionStorage.getItem("playing")=="false") {
+		vid.play();
+		sessionStorage.setItem("playing", "true");
+		console.log("222",sessionStorage.getItem("playing"));
+		playMusic.innerHTML='Parar música';
+	} else {
+		vid.pause();
+		sessionStorage.setItem("playing", "false");
+		console.log("333",sessionStorage.getItem("playing"));
+		playMusic.innerHTML='Escuchar música';
+	}	
+} 
+
+//-->
+</script>
