@@ -54,7 +54,7 @@ div.contentContent{margin-top: 50px; display: none;}
 div.contentContent .contentOptions {display: none;}
 
 /* Footer */
-#footer {float: inherit; background: white; border-top:2px solid #dadada; clear:both; color: Black; font-size:0.9em; margin: auto; padding:8px 0; text-align:center; width:960px;}
+#footer {float: inherit; background: white; border-top:2px solid #dadada; clear:both; color: Black; font-size:small; margin: auto; padding:8px 0; text-align:center; width:960px;}
 #footer p {margin:0; padding:0;}
 #footer a {background:inherit; color:gray; font-weight:400; text-decoration:none;}
 #footer a:hover {text-decoration: underline;}
@@ -257,7 +257,7 @@ hr {border:0; border-bottom:1px solid #d8d8d8;}
 }
 
 #pieComun a {
-  color: #084B8A;	
+  color: #0082ff;	
 }
 
 #pieComun a:hover {
@@ -420,6 +420,16 @@ hr {border:0; border-bottom:1px solid #d8d8d8;}
 
 .saludoDirMay {
   margin-top: 20px;	
+  color: #072570;	
+  padding: 3px;
+  font:Verdana,Tahoma,Arial,sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  text-align: center;
+}
+
+.saludoDirImg {
+  margin-top: 70px;	
   color: #072570;	
   padding: 3px;
   font:Verdana,Tahoma,Arial,sans-serif;

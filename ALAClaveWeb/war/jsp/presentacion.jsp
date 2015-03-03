@@ -19,7 +19,8 @@
 					<td valign="top">
 						<p><img src="images/foto_director.jpg" border="0"
 							alt="Foto Director" width="338"/></p>
-					<p class="saludoDirMay">¡¡Bienvenidos!!</p>	
+						<p class="saludoDirMay">¡¡Bienvenidos!!</p>	
+						<p class="saludoDirImg"><img src="images/nueva/logo_claveCentro.jpg" border="0" width="125px" height="295px" /></p>	
 					</td>
 					<td valign="top" class="saludoDir">
 						<p>Todos aquellos amantes del arte en cualquiera de sus manifestaciones musicales,  en nuestro caso y mas concretamente,  en la especialidad de PIANO  y la de CANTO.</p>
