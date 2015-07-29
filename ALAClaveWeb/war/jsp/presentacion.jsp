@@ -18,7 +18,7 @@
 				<tr>
 					<td valign="top">
 						<p><img src="images/foto_director.jpg" border="0"
-							alt="Foto Director" width="338"/></p>
+							alt="Foto Director" width="338px" height="250px"/></p>
 						<p class="saludoDirMay">¡¡Bienvenidos!!</p>	
 						<p class="saludoDirImg"><img src="images/nueva/logo_claveCentro.jpg" border="0" width="125px" height="295px" /></p>	
 					</td>
