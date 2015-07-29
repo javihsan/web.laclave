@@ -40,11 +40,11 @@ String trace = (String)request.getAttribute("trace");
 <div class="headerContent">
 
 <div id="content-detail">
-		<a href="main.do"><img src="images/nueva/izquierdaCab.jpg"   alt="Cabecera La Clave" width="419" height="82" /></a>
-		<img src="images/nueva/SaludoCab.jpg"      alt="Cabecera La Clave" width="115"  height="82" />
-		<img src="images/nueva/pianoNegro2Cab.jpg"	alt="Cabecera La Clave" width="135"  height="82" />
-		<img src="images/nueva/TodosCab.bmp" 	    alt="Cabecera La Clave" width="115"  height="82" />
-		<img src="images/nueva/pianoNegroCab.jpg" 	alt="Cabecera La Clave" width="135"  height="82" />
+		<a href="main.do"><img src="images/nueva/izquierdaCab.jpg"   alt="Cabecera La Clave" width="419px" height="82px" /></a>
+		<img src="images/2015/MariaPolo.jpg"      alt="Cabecera La Clave" width="130px"  height="82px" />
+		<img src="images/2015/ValeriaGaube.jpg"	alt="Cabecera La Clave" width="130px"  height="82px" />
+		<img src="images/2015/Carolina.jpg" 	    alt="Cabecera La Clave" width="130px"  height="82px" />
+		<img src="images/nueva/TodosEscena2.bmp" 	alt="Cabecera La Clave" width="135px"  height="82px" />
 </div>
 
 </div>
@@ -139,10 +139,8 @@ document.write('</audio>');
 
 var vid = document.getElementById("musicBG"); 
 var playMusic = document.getElementById("playMusic");
-console.log("000",sessionStorage.getItem("playing"));
 if (sessionStorage.getItem("playing")==null) {
 	sessionStorage.setItem("playing", "true");
-	console.log("111",sessionStorage.getItem("playing"));
 }
 if (sessionStorage.getItem("playing")=="true") {
 	vid.play();
@@ -155,12 +153,10 @@ function playVid() {
 	if (sessionStorage.getItem("playing")=="false") {
 		vid.play();
 		sessionStorage.setItem("playing", "true");
-		console.log("222",sessionStorage.getItem("playing"));
 		playMusic.innerHTML='Parar música';
 	} else {
 		vid.pause();
 		sessionStorage.setItem("playing", "false");
-		console.log("333",sessionStorage.getItem("playing"));
 		playMusic.innerHTML='Escuchar música';
 	}	
 } 

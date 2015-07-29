@@ -9,8 +9,8 @@
 	Director</a></li>
 	<li class="LaClave_Contactop"><a href="contacto.do"
 		title="Contacto">Contacto</a></li>
-	<li class="LaClave_Instalacionesp"><a
-		href="instalaciones.do" title="Instalaciones">Instalaciones</a></li>
+<!--	<li class="LaClave_Instalacionesp"><a
+		href="instalaciones.do" title="Instalaciones">Instalaciones</a></li>-->
 	<li class="LaClave_Localizacionp"><a
 		href="localizacion.do" title="Localización">Localización</a></li>
 	<li class="LaClave_Actuacionesp"><a
@@ -189,7 +189,7 @@
 				</tr>
 				<tr>
 					<td valign="top" align="center" colspan="2"><b>
-					<font style="font-size: 9px">
+					<font style="font-size: 0.9em">
 					ALGUNOS DE NUESTROS ALUMNOS EN CONCIERTO</font></b>
 					</td>
 				</tr>
@@ -198,11 +198,11 @@
 					<div align="center">
 					<img
 						src="images/concierto_junio09.jpg"
-						alt="Concierto Junio 2009" border="0" width="120" height="90">
+						alt="Concierto Junio 2009" border="0" width="120" height="110">
 					</div>
 					<div align="center"><b><a
 						href="conciertojunio09.do">
-						<font style="font-size: 10px; color: #000000">
+						<font style="font-size: font-size: 15px; color: #0082ff">
 						(Ver final del concierto)</font></a></b></div>
 					<hr noshade="noshade">
 					</td>

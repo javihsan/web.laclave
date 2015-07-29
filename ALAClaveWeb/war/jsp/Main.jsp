@@ -77,20 +77,20 @@
 			<table cellspacing="0" cellpadding="3" align="center" width="100%" border="0">
 				<tr>
 					<td width="50%"><img src="images/nueva/TodosEscena.jpg" border="0" width="100%" height="330px" /></td>
-					<td><img src="images/ninos4.jpg" border="0" width="100%" height="330px" /></td>
+					<td><img src="images/2015/SandraCanto.jpg" border="0" width="100%" height="330px" /></td>
 				</tr>
 				<tr>
-					<td><img src="images/nueva/Todos.bmp" border="0" width="100%" height="330px" /></td>
-					<td><img src="images/nueva/Benito.bmp" border="0" width="100%" height="330px" /></td>
+					<td><img src="images/2015/Sandra1Canto.jpg" border="0" width="100%" height="330px" /></td>
+					<td><img src="images/2015/Yuki.png" border="0" width="100%" height="330px" /></td>
 				</tr>
 			</table>	
 		</td>
 		<td align="right" valign="top" width="180px">
-			<img src="images/ninos1.jpg" border="0" width="170px" alt="Niños 1" />
-			<img src="images/ninos2.jpg" border="0" width="170px" alt="Niños 2" />
-			<img src="images/ninos3.jpg" border="0" width="170px" alt="Niños 3" />
-			<img src="images/nueva/TodosEscena2.bmp" border="0" width="170px" alt="Niños 4" />
-			<img src="images/ninos5.jpg" border="0" width="170px" alt="Niños 5" />
+			<img src="images/nueva/Benito.bmp" border="0" width="170px" height="130px" alt="Foto lateral 1" />
+			<img src="images/2015/ManuelOrtega.jpg" border="0" width="170px" height="110px" alt="Foto lateral 2" />
+			<img src="images/ninos3.jpg" border="0" width="170px" height="130px" alt="Foto lateral 3" />
+			<img src="images/2015/SandraCarvajal.jpg" border="0" width="170px" height="130px" alt="Foto lateral 4" />
+			<img src="images/2015/JavierCrespo.jpg" border="0" width="170px" height="125px" alt="Foto lateral 5" />
 		</td>
 	</tr>
 </table>
