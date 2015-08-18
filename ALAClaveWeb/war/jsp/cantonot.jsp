@@ -47,10 +47,10 @@
 				</ul>
 			 </td>
 			 <td>
-			 	<ul>
+				<ul>
 				<li>
-					TRY por LEONOR ESCOBAR <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/I5I9j6VwXf8" frameborder="0" allowfullscreen></iframe>
+					LUCÍA por CRISTINA REGAJO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/CrYaZkbL2JA" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			 </td>
@@ -65,16 +65,6 @@
 				</ul>
 			 </td>
 			 <td>
-				<ul>
-				<li>
-					STAY por ROSE LUCÍA HOYO RUÍZ <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/A-b0ki4CErY" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			</tr>
-			<tr>
-			<td>
 			<ul>
 				<li>
 					TEATRO por MYRIAN GAUBE <br><br>
@@ -82,29 +72,21 @@
 				</li>
 				</ul>
 			 </td>
-			 <td>
-				<ul>
-				<li>
-					FEELINGS por JAVIER CRESPO <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/OJpEyKst3XU" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
 			</tr>
 			<tr>
 			<td>
 				<ul>
 				<li>
-					LUCÍA por CRISTINA REGAJO <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/CrYaZkbL2JA" frameborder="0" allowfullscreen></iframe>
+					MY WAY (A mi manera) por JAVIER CRESPO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/lD74aW1yhVA" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			 </td>
 			 <td>
-			 	<ul>
+				<ul>
 				<li>
-					UNE FEMME AMOUREUSE  (WOMAN IN LOVE en francés)<br> por LEONOR ESCOBAR <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/M5NiFFGZV2U" frameborder="0" allowfullscreen></iframe>
+					LUCÍA por JAVIER CRESPO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/VlMNYGWwWOs" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			</td>
@@ -131,22 +113,12 @@
 			<td>
 				<ul>
 				<li>
-					MY WAY (A mi manera) por JAVIER CRESPO <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/lD74aW1yhVA" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			 </td>
-			 <td>
-				<ul>
-				<li>
-					LUCÍA por JAVIER CRESPO <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/VlMNYGWwWOs" frameborder="0" allowfullscreen></iframe>
+					STAY por ROSE LUCÍA HOYO RUÍZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/A-b0ki4CErY" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			</td>
-			</tr>
-			<tr>
-			 <td>
+			<td>
 				<ul>
 				<li>
 					YOUNG AND BEAUTIFUL por ROSE y LEONOR <br><br>
@@ -154,6 +126,34 @@
 				</li>
 				</ul>
 			 </td>
+			</tr>
+			<tr>
+			 <td>
+			 	<ul>
+				<li>
+					TRY por LEONOR ESCOBAR <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/I5I9j6VwXf8" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			 </td>
+			 <td>
+			 	<ul>
+				<li>
+					UNE FEMME AMOUREUSE  (WOMAN IN LOVE en francés)<br> por LEONOR ESCOBAR <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/M5NiFFGZV2U" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					FEELINGS por JAVIER CRESPO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/OJpEyKst3XU" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
 			 <td>
 			 </td>
 			</tr>
