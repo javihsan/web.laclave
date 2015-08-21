@@ -84,6 +84,70 @@
 			 <td>&nbsp;</td>
 			 <td>&nbsp;</td>
 			 </tr>
+			 <tr>
+			<td>
+				<ul>
+				<li>
+					Guadalupe Lucaci  <br><br>
+					<img src="images/2015/GuadaLucaci.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					Rosalía Vaquero Muñoz  <br><br>
+					<img src="images/2015/RosaliaVaquero.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					Jaime Merino  <br><br>
+					<img src="images/2015/JaimeMerino.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					Silvia Fleckinger Villarejo <br><br>
+					<img src="images/2015/SilviaFleckin.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					Sara Mai Ortiz De Manuel <br><br>
+					<img src="images/2015/SaraMai.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					Miguel Checa Gómez <br><br>
+					<img src="images/2015/MiguelCheca.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					Guillermo Sáez Jiménez <br><br>
+					<img src="images/2015/GuilleSaez.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			 </td>
+			 <td>&nbsp;</td>
+			 <td>&nbsp;</td>
+			 </tr>
 			</table>
 
 <%@include file="pie.jsp"%>

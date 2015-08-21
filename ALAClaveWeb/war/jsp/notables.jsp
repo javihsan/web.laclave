@@ -116,6 +116,26 @@
 			</td>
 			<td>&nbsp;</td>
 			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					Laura Pérez De Castro  <br><br>
+					<img src="images/2015/LauraPerez.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					Valeria Massiel Mamani Gaube  <br><br>
+					<img src="images/2015/ValeriaMassiel.jpg" border="0" width="200px" height="180px" />
+				</li>
+				</ul>
+			</td>
+			<td>
+			</td>
+			</tr>
 			</table>
 
 <%@include file="pie.jsp"%>
