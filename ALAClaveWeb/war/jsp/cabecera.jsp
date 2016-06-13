@@ -75,7 +75,7 @@ String trace = (String)request.getAttribute("trace");
 	src="images/lupa.jpg"
 	alt="Búsqueda" />
 </span>
-<button id="playMusic" onclick="playVid()" type="button">Música</button>
+<!-- <button id="playMusic" onclick="playVid()" type="button">Música</button>-->
 </form>
 </div> 
 
@@ -127,7 +127,7 @@ if (main==null){
 
 <script language="JavaScript" type="text/javascript">
 <!--
-
+/*
 var mp3snd = "media/WebMisteriosa.mp3";
 
 document.write('<audio id="musicBG">');
@@ -159,7 +159,7 @@ function playVid() {
 		sessionStorage.setItem("playing", "false");
 		playMusic.innerHTML='Escuchar música';
 	}	
-} 
+} */
 
 //-->
 </script>
