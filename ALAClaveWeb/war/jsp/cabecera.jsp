@@ -41,9 +41,9 @@ String trace = (String)request.getAttribute("trace");
 
 <div id="content-detail">
 		<a href="main.do"><img src="images/nueva/izquierdaCab.jpg"   alt="Cabecera La Clave" width="419px" height="82px" /></a>
-		<img src="images/2015/MariaPolo.jpg"      alt="Cabecera La Clave" width="130px"  height="82px" />
-		<img src="images/2015/ValeriaGaube.jpg"	alt="Cabecera La Clave" width="130px"  height="82px" />
-		<img src="images/2015/Carolina.jpg" 	    alt="Cabecera La Clave" width="130px"  height="82px" />
+		<img src="images/2015/RosaliaVaqueroCab.jpg"      alt="Cabecera La Clave" width="130px"  height="82px" />
+		<img src="images/2015/MiguelChecaCab.jpg"	alt="Cabecera La Clave" width="130px"  height="82px" />
+		<img src="images/nueva/TodosEscena.jpg" 	    alt="Cabecera La Clave" width="130px"  height="82px" />
 		<img src="images/nueva/TodosEscena2.bmp" 	alt="Cabecera La Clave" width="135px"  height="82px" />
 </div>
 

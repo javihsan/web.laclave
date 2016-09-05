@@ -76,12 +76,12 @@
 			</div>
 			<table cellspacing="0" cellpadding="3" align="center" width="100%" border="0">
 				<tr>
-					<td width="50%"><img src="images/nueva/TodosEscena.jpg" border="0" width="100%" height="330px" /></td>
-					<td><img src="images/2015/SandraCanto.jpg" border="0" width="100%" height="330px" /></td>
+					<td width="50%"><img src="images/2015/Sandra1Canto.jpg" border="0" width="100%" height="330px" /></td>
+					<td><img src="images/2015/MariMar.jpg" border="0" width="100%" height="330px" /></td>
 				</tr>
 				<tr>
-					<td><img src="images/2015/Sandra1Canto.jpg" border="0" width="100%" height="330px" /></td>
 					<td><img src="images/2015/Yuki.png" border="0" width="100%" height="330px" /></td>
+					<td><img src="images/2015/SandraCanto.jpg" border="0" width="100%" height="330px" /></td>
 				</tr>
 			</table>	
 		</td>
