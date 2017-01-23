@@ -35,4 +35,6 @@
 	
 	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>
 
+	<set-configuration-property name="devModeRedirectEnabled" value="false"/>
+
 </module>
