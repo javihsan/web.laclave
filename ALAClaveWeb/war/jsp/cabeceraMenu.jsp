@@ -197,13 +197,13 @@
 					<td valign="top" colspan="2">
 					<div align="center">
 					<img
-						src="images/concierto_junio09.jpg"
+						src="images/2017/concierto_2017.jpg"
 						alt="Concierto Junio 2009" border="0" width="120" height="110">
 					</div>
-					<div align="center"><b><a
+					<!--<div align="center"><b><a
 						href="conciertojunio09.do">
 						<font style="font-size: font-size: 15px; color: #0082ff">
-						(Ver final del concierto)</font></a></b></div>
+						(Ver final del concierto)</font></a></b></div>-->
 					<hr noshade="noshade">
 					</td>
 				</tr>

@@ -23,6 +23,42 @@
 			<td>
 				<ul>
 				<li>
+					PRINCE TAG por ESTHER BORREGON <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/Iy52HEVKrr0" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					 PAPER DOLL por ESTHER BORREGON <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/Lm6WgD24tWo" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					SKINNY LOVE por ROSE HOYO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/mVUpvWiA8Bc" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					BORN TO DIE por ROSE HOYO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/TZM5TZXeE04" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
 					SOMEBODY ELSE por SANDRA CARVAJAL <br><br>
 					<iframe width="300" height="220" src="http://www.youtube.com/embed/oV6aRJPZf_o" frameborder="0" allowfullscreen></iframe>
 				</li>
