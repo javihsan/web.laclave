@@ -1,67 +1,26 @@
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-/**
- * This startup script is used when we run superdevmode from an app server.
- */
-(function($wnd, $doc){
-  // document.head does not exist in IE8
-  var $head = $doc.head || $doc.getElementsByTagName('head')[0];
-  // Compute some codeserver urls so as the user does not need bookmarklets
-  var hostName = $wnd.location.hostname;
-  var serverUrl = 'http://' + hostName + ':9876';
-  var module = 'alaclaveweb';
-  var nocacheUrl = serverUrl + '/recompile-requester/' + module;
-
-  // Insert the superdevmode nocache script in the first position of the head
-  var devModeScript = $doc.createElement('script');
-  devModeScript.src = nocacheUrl;
-
-  // Everybody except IE8 does fire an error event
-  // This means that we do not detect a non running SDM with IE8.
-  if (devModeScript.addEventListener) {
-    var callback = function() {
-      // Don't show the confirmation dialogue twice (multimodule)
-      if (!$wnd.__gwt__sdm__confirmed &&
-           (!$wnd.__gwt_sdm__recompiler || !$wnd.__gwt_sdm__recompiler.loaded)) {
-        $wnd.__gwt__sdm__confirmed = true;
-        if ($wnd.confirm(
-            "Couldn't load " +  module + " from Super Dev Mode\n" +
-            "server at " + serverUrl + ".\n" +
-            "Please make sure this server is ready.\n" +
-            "Do you want to try again?")) {
-          $wnd.location.reload();
-        }
-      }
-    };
-    devModeScript.addEventListener("error", callback, true);
-  }
-
-  var injectScriptTag = function(){
-    $head.insertBefore(devModeScript, $head.firstElementChild || $head.children[0]);
-  };
-
-  if (/loaded|complete/.test($doc.readyState)) {
-    injectScriptTag();
-  } else {
-    //defer app script insertion until the body is ready
-    if($wnd.addEventListener){
-      $wnd.addEventListener('load', injectScriptTag, false);
-    } else{
-      $wnd.attachEvent('onload', injectScriptTag);
-    }
-  }
-})(window, document);
+function alaclaveweb(){var I='bootstrap',J='begin',K='gwt.codesvr.alaclaveweb=',L='gwt.codesvr=',M='alaclaveweb',N='startup',O='DUMMY',P=0,Q=1,R='iframe',S='javascript:""',T='position:absolute; width:0; height:0; border:none; left: -1000px;',U=' top: -1000px;',V='CSS1Compat',W='<!doctype html>',X='',Y='<html><head><\/head><body><\/body><\/html>',Z='undefined',$='DOMContentLoaded',_=50,ab='Chrome',bb='eval("',cb='");',db='script',eb='javascript',fb='moduleStartup',gb='moduleRequested',hb='Failed to load ',ib='head',jb='meta',kb='name',lb='alaclaveweb::',mb='::',nb='gwt:property',ob='content',pb='=',qb='gwt:onPropertyErrorFn',rb='Bad handler "',sb='" for "gwt:onPropertyErrorFn"',tb='gwt:onLoadErrorFn',ub='" for "gwt:onLoadErrorFn"',vb='#',wb='?',xb='/',yb='img',zb='clear.cache.gif',Ab='baseUrl',Bb='alaclaveweb.nocache.js',Cb='base',Db='//',Eb='user.agent',Fb='webkit',Gb='safari',Hb='msie',Ib=10,Jb=11,Kb='ie10',Lb=9,Mb='ie9',Nb=8,Ob='ie8',Pb='gecko',Qb='gecko1_8',Rb=2,Sb=3,Tb=4,Ub='selectingPermutation',Vb='alaclaveweb.devmode.js',Wb='2FF8FC9FD6B2A45C8DAF97B14CDCB571',Xb='454ED7CA744C59164EDF1B8BA8997D7D',Yb='8ECE3D0CD471D6BBC619E03336D35581',Zb='A86691F6D64BD05729C7C82DA8AC70C0',$b='B9DFDD87B125F44084A764A8CC305AA2',_b=':',ac='.cache.js',bc='link',cc='rel',dc='stylesheet',ec='href',fc='loadExternalRefs',gc='gwt/standard/standard.css',hc='end';var o=window;var p=document;r(I,J);function q(){var a=o.location.search;return a.indexOf(K)!=-1||a.indexOf(L)!=-1}
+function r(a,b){if(o.__gwtStatsEvent){o.__gwtStatsEvent({moduleName:M,sessionId:o.__gwtStatsSessionId,subSystem:N,evtGroup:a,millis:(new Date).getTime(),type:b})}}
+alaclaveweb.__sendStats=r;alaclaveweb.__moduleName=M;alaclaveweb.__errFn=null;alaclaveweb.__moduleBase=O;alaclaveweb.__softPermutationId=P;alaclaveweb.__computePropValue=null;alaclaveweb.__getPropMap=null;alaclaveweb.__installRunAsyncCode=function(){};alaclaveweb.__gwtStartLoadingFragment=function(){return null};alaclaveweb.__gwt_isKnownPropertyValue=function(){return false};alaclaveweb.__gwt_getMetaProperty=function(){return null};var s=null;var t=o.__gwt_activeModules=o.__gwt_activeModules||{};t[M]={moduleName:M};alaclaveweb.__moduleStartupDone=function(e){var f=t[M].bindings;t[M].bindings=function(){var a=f?f():{};var b=e[alaclaveweb.__softPermutationId];for(var c=P;c<b.length;c++){var d=b[c];a[d[P]]=d[Q]}return a}};var u;function v(){w();return u}
+function w(){if(u){return}var a=p.createElement(R);a.src=S;a.id=M;a.style.cssText=T+U;a.tabIndex=-1;p.body.appendChild(a);u=a.contentDocument;if(!u){u=a.contentWindow.document}u.open();var b=document.compatMode==V?W:X;u.write(b+Y);u.close()}
+function A(k){function l(a){function b(){if(typeof p.readyState==Z){return typeof p.body!=Z&&p.body!=null}return /loaded|complete/.test(p.readyState)}
+var c=b();if(c){a();return}function d(){if(!c){c=true;a();if(p.removeEventListener){p.removeEventListener($,d,false)}if(e){clearInterval(e)}}}
+if(p.addEventListener){p.addEventListener($,d,false)}var e=setInterval(function(){if(b()){d()}},_)}
+function m(c){function d(a,b){a.removeChild(b)}
+var e=v();var f=e.body;var g;if(navigator.userAgent.indexOf(ab)>-1&&window.JSON){var h=e.createDocumentFragment();h.appendChild(e.createTextNode(bb));for(var i=P;i<c.length;i++){var j=window.JSON.stringify(c[i]);h.appendChild(e.createTextNode(j.substring(Q,j.length-Q)))}h.appendChild(e.createTextNode(cb));g=e.createElement(db);g.language=eb;g.appendChild(h);f.appendChild(g);d(f,g)}else{for(var i=P;i<c.length;i++){g=e.createElement(db);g.language=eb;g.text=c[i];f.appendChild(g);d(f,g)}}}
+alaclaveweb.onScriptDownloaded=function(a){l(function(){m(a)})};r(fb,gb);var n=p.createElement(db);n.src=k;if(alaclaveweb.__errFn){n.onerror=function(){alaclaveweb.__errFn(M,new Error(hb+code))}}p.getElementsByTagName(ib)[P].appendChild(n)}
+alaclaveweb.__startLoadingFragment=function(a){return D(a)};alaclaveweb.__installRunAsyncCode=function(a){var b=v();var c=b.body;var d=b.createElement(db);d.language=eb;d.text=a;c.appendChild(d);c.removeChild(d)};function B(){var c={};var d;var e;var f=p.getElementsByTagName(jb);for(var g=P,h=f.length;g<h;++g){var i=f[g],j=i.getAttribute(kb),k;if(j){j=j.replace(lb,X);if(j.indexOf(mb)>=P){continue}if(j==nb){k=i.getAttribute(ob);if(k){var l,m=k.indexOf(pb);if(m>=P){j=k.substring(P,m);l=k.substring(m+Q)}else{j=k;l=X}c[j]=l}}else if(j==qb){k=i.getAttribute(ob);if(k){try{d=eval(k)}catch(a){alert(rb+k+sb)}}}else if(j==tb){k=i.getAttribute(ob);if(k){try{e=eval(k)}catch(a){alert(rb+k+ub)}}}}}__gwt_getMetaProperty=function(a){var b=c[a];return b==null?null:b};s=d;alaclaveweb.__errFn=e}
+function C(){function e(a){var b=a.lastIndexOf(vb);if(b==-1){b=a.length}var c=a.indexOf(wb);if(c==-1){c=a.length}var d=a.lastIndexOf(xb,Math.min(c,b));return d>=P?a.substring(P,d+Q):X}
+function f(a){if(a.match(/^\w+:\/\//)){}else{var b=p.createElement(yb);b.src=a+zb;a=e(b.src)}return a}
+function g(){var a=__gwt_getMetaProperty(Ab);if(a!=null){return a}return X}
+function h(){var a=p.getElementsByTagName(db);for(var b=P;b<a.length;++b){if(a[b].src.indexOf(Bb)!=-1){return e(a[b].src)}}return X}
+function i(){var a=p.getElementsByTagName(Cb);if(a.length>P){return a[a.length-Q].href}return X}
+function j(){var a=p.location;return a.href==a.protocol+Db+a.host+a.pathname+a.search+a.hash}
+var k=g();if(k==X){k=h()}if(k==X){k=i()}if(k==X&&j()){k=e(p.location.href)}k=f(k);return k}
+function D(a){if(a.match(/^\//)){return a}if(a.match(/^[a-zA-Z]+:\/\//)){return a}return alaclaveweb.__moduleBase+a}
+function F(){var f=[];var g=P;function h(a,b){var c=f;for(var d=P,e=a.length-Q;d<e;++d){c=c[a[d]]||(c[a[d]]=[])}c[a[e]]=b}
+var i=[];var j=[];function k(a){var b=j[a](),c=i[a];if(b in c){return b}var d=[];for(var e in c){d[c[e]]=e}if(s){s(a,d,b)}throw null}
+j[Eb]=function(){var a=navigator.userAgent.toLowerCase();var b=p.documentMode;if(function(){return a.indexOf(Fb)!=-1}())return Gb;if(function(){return a.indexOf(Hb)!=-1&&(b>=Ib&&b<Jb)}())return Kb;if(function(){return a.indexOf(Hb)!=-1&&(b>=Lb&&b<Jb)}())return Mb;if(function(){return a.indexOf(Hb)!=-1&&(b>=Nb&&b<Jb)}())return Ob;if(function(){return a.indexOf(Pb)!=-1||b>=Jb}())return Qb;return X};i[Eb]={gecko1_8:P,ie10:Q,ie8:Rb,ie9:Sb,safari:Tb};__gwt_isKnownPropertyValue=function(a,b){return b in i[a]};alaclaveweb.__getPropMap=function(){var a={};for(var b in i){if(i.hasOwnProperty(b)){a[b]=k(b)}}return a};alaclaveweb.__computePropValue=k;o.__gwt_activeModules[M].bindings=alaclaveweb.__getPropMap;r(I,Ub);if(q()){return D(Vb)}var l;try{h([Kb],Wb);h([Gb],Xb);h([Mb],Yb);h([Ob],Zb);h([Qb],$b);l=f[k(Eb)];var m=l.indexOf(_b);if(m!=-1){g=parseInt(l.substring(m+Q),Ib);l=l.substring(P,m)}}catch(a){}alaclaveweb.__softPermutationId=g;return D(l+ac)}
+function G(){if(!o.__gwt_stylesLoaded){o.__gwt_stylesLoaded={}}function c(a){if(!__gwt_stylesLoaded[a]){var b=p.createElement(bc);b.setAttribute(cc,dc);b.setAttribute(ec,D(a));p.getElementsByTagName(ib)[P].appendChild(b);__gwt_stylesLoaded[a]=true}}
+r(fc,J);c(gc);r(fc,hc)}
+B();alaclaveweb.__moduleBase=C();t[M].moduleBase=alaclaveweb.__moduleBase;var H=F();G();r(I,hc);A(H);return true}
+alaclaveweb.succeeded=alaclaveweb();

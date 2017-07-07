@@ -195,16 +195,22 @@
 				</tr>
 				<tr>
 					<td valign="top" colspan="2">
-					<div align="center">
-					<img
-						src="images/2017/concierto_2017.jpg"
-						alt="Concierto Junio 2009" border="0" width="120" height="110">
-					</div>
-					<!--<div align="center"><b><a
-						href="conciertojunio09.do">
-						<font style="font-size: font-size: 15px; color: #0082ff">
-						(Ver final del concierto)</font></a></b></div>-->
-					<hr noshade="noshade">
+						<div align="center"><b><a
+							href="conciertojunio09.do">
+							<font style="font-size: font-size: 15px; color: #0082ff">
+							(Ver final del concierto)</font></a></b>
+						</div>
+						<div align="center">
+							<img
+								src="images/concierto_junio09.jpg"
+								alt="Concierto Junio 2009" border="0" width="120" height="110">
+						</div>
+						<hr noshade="noshade">
+						<div align="center">
+							<img
+								src="images/2017/concierto_2017.jpg"
+								alt="Concierto Junio 2017" border="0" width="120" height="110">
+						</div>
 					</td>
 				</tr>
 				<tr>
