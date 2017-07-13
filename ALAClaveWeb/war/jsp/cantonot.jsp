@@ -23,6 +23,42 @@
 			<td>
 				<ul>
 				<li>
+					NAVE DEL OLVIDO por JORGE ROMERO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/pQ2538OI2bk" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					 PROCURO OLVIDARTE por JORGE ROMERO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/nTyJ_d-uf_A" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					FLOR DE LA CANELA por JORGE ROMERO <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/u0qe5GgTO4Q" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					 STARVING por ESTHER BORREGON <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/Wn-ZuCNOi6s" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
 					PRINCE TAG por ESTHER BORREGON <br><br>
 					<iframe width="300" height="220" src="http://www.youtube.com/embed/Iy52HEVKrr0" frameborder="0" allowfullscreen></iframe>
 				</li>
