@@ -23,6 +23,168 @@
 			<td>
 				<ul>
 				<li>
+					SWAY por MANUEL VARGAS <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/piQzoPY_m1U" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					FEELING GOOD por MANUEL VARGAS <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/2ELdpcr74wM" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					NO ME QUIERAS TANTO por MANUEL VARGAS <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/UXt6VDrarzk" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					SOMBRAS por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/5K1wz_datpE" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					LUNA DE ESPAÑA por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/YlXJm7vPiPY" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					CANCIÓN CON TODOS por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/DKFMtWU2P18" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					LA BOHEMIA por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/zaHk4H1hy1Q" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					SOÑAR CONTIGO por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/OZ6ptQAgH8Y" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					MEMORIAS DE UNA VIEJA CANCIÓN por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/XeMD_gX0XQA" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					SE NOS ROMPIÓ EL AMOR por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/ttO0hmacJ7g" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					TE EXTRAÑO por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/haPheBq5Bv4" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					CON LOS AÑOS QUE NOS QUEDAN por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/5B4_6dnZbl8" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					AMOR SALVAJE por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/KfmIU6VmSbs" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					ALGO CONTIGO por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/NJYMYs6f7iA" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					NON CREDERE por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/sgkIW0Kcles" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					ALFONSINA Y EL MAR por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/PpeXqQDSgsc" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
+					ESTRELLITA DEL SUR por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/_9-jrS6gXSg" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>
+					EL ROSARIO DE MI MADRE por MARÍA DEL MAR PEREZ <br><br>
+					<iframe width="300" height="220" src="http://www.youtube.com/embed/CnqP-l0Dy6A" frameborder="0" allowfullscreen></iframe>
+				</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<ul>
+				<li>
 					NAVE DEL OLVIDO por JORGE ROMERO <br><br>
 					<iframe width="300" height="220" src="http://www.youtube.com/embed/pQ2538OI2bk" frameborder="0" allowfullscreen></iframe>
 				</li>
@@ -105,42 +267,6 @@
 				<li>
 					BLOOD por SANDRA CARVAJAL <br><br>
 					<iframe width="300" height="220" src="http://www.youtube.com/embed/3Xz8D3tjvTM" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			</tr>
-			<tr>
-			<td>
-				<ul>
-				<li>
-					NON CREDERE por MARÍA DEL MAR PEREZ MARAÑON <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/sgkIW0Kcles" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-				<li>
-					ALFONSINA Y EL MAR por MARÍA DEL MAR PEREZ MARAÑON <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/PpeXqQDSgsc" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			</tr>
-			<tr>
-			<td>
-				<ul>
-				<li>
-					ESTRELLITA DEL SUR por MARÍA DEL MAR PEREZ MARAÑON <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/_9-jrS6gXSg" frameborder="0" allowfullscreen></iframe>
-				</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-				<li>
-					EL ROSARIO DE MI MADRE por MARÍA DEL MAR PEREZ MARAÑON <br><br>
-					<iframe width="300" height="220" src="http://www.youtube.com/embed/CnqP-l0Dy6A" frameborder="0" allowfullscreen></iframe>
 				</li>
 				</ul>
 			</td>
